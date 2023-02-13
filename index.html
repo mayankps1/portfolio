@@ -3369,7 +3369,7 @@
                   </section>
                 </div>
                 <div class="RightSectionStyles__Wrapper-sc-1qhoi6q-0 bLEzdm">
-                  <form onsubmit="sendEmail();reset();return false;">
+                  <form >
                     <div class="flex">
                       <section>
                         <input
@@ -3540,24 +3540,7 @@
     </script>
 
 
-   <script src="https://smtpjs.com/v3/smtp.js"></script>
-
-   <script>
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "wsause56@gmail.com",
-      Password : "783AB65E7FBA13C0D2837831DFC1BA6F2102",
-      To : 'pratapmayank10@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : "Portfolio",
-      Body : " Name: "+document.getElementById("name").value
-            + "<br> Email: " +document.getElementById("email").value
-            +"<br> Message: "+document.getElementById("message").value,
-
-  }).then(
-    message => alert(message)
-  );
-   </script>
+  
    
   </body>
 </html>
