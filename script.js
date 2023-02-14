@@ -1,12 +1,21 @@
 window.onload = function () {
   //resumedownload
-  var resume = document.querySelector('.js-resume')
+  var resume1 = document.querySelector('.js-resume1')
 
-  if (resume) {
-    resume.addEventListener('click', function () {
+  if (resume1) {
+    resume1.addEventListener('click', function () {
       window.open('resume.pdf', '_blank')
     })
   }
+
+  var resume2 = document.querySelector('.js-resume2')
+
+  if (resume2) {
+    resume2.addEventListener('click', function () {
+      window.open('resume.pdf', '_blank')
+    })
+  }
+
 
   //navbar
 
