@@ -4,7 +4,7 @@ window.onload = function () {
 
   if (resume1) {
     resume1.addEventListener('click', function () {
-      window.open('resume.pdf', '_blank')
+      window.open('Resume.pdf', '_blank')
     })
   }
 
@@ -12,7 +12,7 @@ window.onload = function () {
 
   if (resume2) {
     resume2.addEventListener('click', function () {
-      window.open('resume.pdf', '_blank')
+      window.open('Resume.pdf', '_blank')
     })
   }
 
